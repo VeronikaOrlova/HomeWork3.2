@@ -1,0 +1,33 @@
+#nav {
+    list-style:none;
+    margin:0;
+    padding:0;
+    font-size:40px;
+    text-align:center;
+  }
+  #nav li {
+      display: inline;
+  }
+  nav ul li{
+    list-style:none; 
+  }
+  p:first-letter {
+    color: red;
+  }
+  p:first-line {
+        font-size:45px;
+    } 
+  img {
+    width:100px;
+    height:100px;
+  }
+  .imgleft:nth-child(1n) {
+      float:left;
+  }
+  .imgright:nth-child(1n+1) {
+      float:right;
+  }
+  p {
+      text-align-last:center;
+  }
+  
